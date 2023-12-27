@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = 'http://localhost:8085/api/task';
+const baseURL = 'https://pomodoro-app-ulpj.onrender.com/api/task';
 
 const taskService = {
   getAllTasks() {
